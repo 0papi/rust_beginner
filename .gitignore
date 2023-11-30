@@ -5,3 +5,7 @@
 ./control_flow/target
 ./loops/target
 ./temperature_converter/target
+./rock_paper_scissors/target
+./ownership/target
+./struct_learn/target
+
