@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/rock_paper_scissors/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ownership/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/struct_learn/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/enum_learn/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AOC/day_1/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
@@ -22,6 +24,8 @@
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/struct_learn/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables/target" />
+      <excludeFolder url="file://$MODULE_DIR$/enum_learn/target" />
+      <excludeFolder url="file://$MODULE_DIR$/AOC/day_1/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

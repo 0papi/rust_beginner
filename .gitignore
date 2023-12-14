@@ -8,4 +8,5 @@
 ./rock_paper_scissors/target
 ./ownership/target
 ./struct_learn/target
-
+./enum_learn/target
+./config_learn/target

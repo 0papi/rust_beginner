@@ -7,22 +7,30 @@ struct Rectangle {
 
 // adding a method to the struct
 impl Rectangle {
-    fn area(&self) -> i32{
+    fn area(&self) -> i32 {
         self.width * self.height
     }
 }
 
+#[derive(Debug)]
+struct User {
+    name:   String,
+    active: bool,
+    email:  String,
+    sign_in_count: u32
+}
+
+impl User {
+    fn user_info(&self) {
+        println!("This user's name is {}", self.name)
+    }
+}
+
+#[derive(Debug)]
+struct Color (i32, i32, i32);
+
 fn main() {
     println!("Hello, world!");
-
-    #[derive(Debug)]
-    struct User {
-        name:   String,
-        active: bool,
-        email:  String,
-        sign_in_count: u32
-
-    }
 
     let first_user  = User {
         name: String::from("Evans Musk"),
@@ -33,27 +41,24 @@ fn main() {
 
     println!("First struct:{:?}", first_user);
 
-
     // changing or mutating values in a struct
-
     let mut second_user = User {
         sign_in_count: 3,
         email: String::from("book@needshelp.com"),
-        name: String::from("nothinghere"),
+        name: String::from("ElonMusketeer"),
         active: true
     };
 
     println!("BEFORE: {:?}", second_user);
 
-    second_user.email = String::from("changedbookshep");
+    second_user.user_info();
+
+    second_user.email = String::from("changedbookshep@help.com");
 
     println!("AFTER: {:?}", second_user);
 
 
     // tuple structs
-    #[derive(Debug)]
-    struct Color (i32, i32, i32);
-
     let main = Color(0, 0, 0);
 
     println!("Tuple Struct Ex: {:?}", main);
