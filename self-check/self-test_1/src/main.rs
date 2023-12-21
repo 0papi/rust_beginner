@@ -1,7 +1,6 @@
 
 fn main() {
-    // TODO:
-    // use the input to accept the string from the user so that u can fully test
+    // TODO: accept inputs from user so that you can test dynamic palindromes
     let original_string = "A man, a plan, a canal, Panama!";
 
     if is_palindrome(original_string) {
